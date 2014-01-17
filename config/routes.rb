@@ -2,6 +2,7 @@ Untitled10::Application.routes.draw do
   match "song/showAddSongForm" => "song#showAddSongForm"
   match "add" =>  "song#add"
   match "view" => "song#view"
+  match "llave" => "test#testiando"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
